@@ -24,6 +24,13 @@ document.write(`
     </ul>
   </div>
 </nav>
+<footer class="footer bg-light text-center text-lg-start">
+  <div class="container p-4">
+    <div class="text-center p-3">
+      &copy; 2024 Kotkantien maalaus ja tapetointi
+    </div>
+  </div>
+</footer>
 `);
 
 /* <footer class="footer bg-light text-center text-lg-start">
