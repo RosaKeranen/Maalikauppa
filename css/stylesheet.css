@@ -1,6 +1,24 @@
 html, body {
     height: 100%;
+    margin: 0;
   }
+
+  .wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+.footer {
+    background-color: #f8f9fa; /* Tai käytä "bg-light" Bootstrap-luokkaa */
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
   
   body {
     display: flex;
@@ -10,29 +28,6 @@ html, body {
   .content {
     flex: 1;
   }
-  
-  .footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-
-/* Kissakuvaan liittyviä tyylejä*/
-
-.custom-square {
-    width: 100%;
-    height: 0;
-    padding-bottom: 100%; /* 1:1 Aspect Ratio */
-    position: relative;
-}
-.custom-square img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures image covers the entire div */
-}
 
 .form-container {
     max-width: 900px;
@@ -42,3 +37,4 @@ html, body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
