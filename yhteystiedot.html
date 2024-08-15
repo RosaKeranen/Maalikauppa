@@ -19,12 +19,54 @@
 <div class="wrapper">
      <div class="content">
 
-     <div class="container-fluid p-5 bg-primary text-white text-center">
-        <h1>Yhteystieto-sivu tähän</h1>
-        <p>Resize this responsive page to see the effect!</p> 
-     </div>
-     <!-- Ja sivun muu sisältö tulee sitten tähän -->
+      <div class="container my-5">
+        <div class="row">
+            <!-- Yrityksen yhteystiedot -->
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Yrityksen yhteystiedot</h5>
+                        <p class="card-text">
+                          Tervetuloa kauppaamme keskustelemaan teille sopivista vaihtoehdoista. Voitte myös soittaa meille, laittaa meille sähköpostia, tai ottakaa rohkeasti yhteyttä yhteydenottolomakkeen kautta!
+                        </p>
+                        <p class="card-text">
+                            <strong>Yritys Oy</strong><br>
+                            Esimerkkikatu 123<br>
+                            00100 Helsinki<br>
+                            Puh: 010 123 4567<br>
+                            Sähköposti: info@yritys.fi
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Yhteydenottolomake -->
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Ota yhteyttä</h5>
+                        <form>
+                            <div class="mb-3">
+                                <label for="nimi" class="form-label">Nimi</label>
+                                <input type="text" class="form-control" id="nimi" placeholder="Kirjoita nimesi">
+                            </div>
+                            <div class="mb-3">
+                                <label for="sahkoposti" class="form-label">Sähköposti</label>
+                                <input type="email" class="form-control" id="sahkoposti" placeholder="Kirjoita sähköpostiosoitteesi">
+                            </div>
+                            <div class="mb-3">
+                                <label for="viesti" class="form-label">Viesti</label>
+                                <textarea class="form-control" id="viesti" rows="4" placeholder="Kirjoita viestisi"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Lähetä</button>
+                            <button type="reset" class="btn btn-secondary">Tyhjennä</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+  </div>
 
     <footer class="footer bg-light text-center text-lg-start">
       <div class="container p-4">
