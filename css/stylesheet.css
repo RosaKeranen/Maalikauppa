@@ -27,6 +27,29 @@ html, body {
     flex-direction: column;
   }
 
+
+  /* Estää yhteystietolomakkeen tekstikentän venymisen hiirellä vedettäessä */
   textarea {
     resize: none;
+}
+
+/* Footerissa olevien some-ikoneiden tyylejä */
+.social-icons a {
+  color: #333; /* Väri, joka on ikoneille */
+  text-decoration: none; /* Poistaa alleviivauksen linkeistä */
+  margin: 0 10px; /* Lisää tilaa ikoneiden väliin */
+  font-size: 3rem; /* Suurentaa ikoneiden kokoa, säätää tarpeen mukaan */
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Väri hover-tilassa */
+}
+
+/* Footerissa olevien puhelin ja sähköposti -ikoneiden tyylejä */
+.contact-info {
+  font-size: 1rem; /* Voit säätää fontin kokoa tarvittaessa */
+}
+
+.contact-info i {
+  margin-right: 8px; /* Lisää tilaa ikonien ja tekstin väliin */
 }
