@@ -7,7 +7,7 @@ html, body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color:beige;
+    /*background-color:beige;*/
 }
 
 .content {
@@ -53,3 +53,104 @@ html, body {
 .contact-info i {
   margin-right: 8px; /* Lisää tilaa ikonien ja tekstin väliin */
 }
+
+/* Seuraavat jutut liittyvät värinvalitsin-hommeliin */
+
+.fiesta {
+  background-color: #DD4132;
+  width: 100px;
+  height: 50px;
+}
+
+.jesterred {
+  background-color: #9E1030;
+  width: 25%;
+  height: 50px;
+}
+
+.turmeric {
+  background-color: #FE840E;
+  width: 25%;
+  height: 50px;
+}
+
+.livingcoral {
+  background-color: #FF6F61;
+  width: 25%;
+  height: 50px;
+}
+
+.pinkpeacock {
+  background-color: #C62168;
+  width: 25%;
+  height: 50px;
+}
+
+.pepperstem {
+  background-color: #8D9440;
+  width: 25%;
+  height: 50px;
+}
+
+.aspengold {
+  background-color: #FFD662 ;
+  width: 25%;
+  height: 50px;
+}
+
+.princessblue {
+  background-color: #00539C ;
+  width: 25%;
+  height: 50px;
+}
+
+.toffee {
+  background-color: #755139 ;
+  width: 25%;
+  height: 50px;
+}
+
+.mangomojito {
+  background-color: #D69C2F;
+  width: 25%;
+  height: 50px;
+}
+
+.terrariummoss {
+  background-color: #616247 ;
+  width: 25%;
+  height: 50px;
+}
+
+.sweetlilac {
+  background-color: #E8B5CE ;
+  width: 25%;
+  height: 50px;
+}
+
+.soybean {
+  background-color: #D2C29D ;
+  width: 25%;
+  height: 50px;
+}
+
+.eclipse {
+  background-color: #343148 ;
+  width: 25%;
+  height: 50px;
+}
+
+.sweetcorn {
+  background-color: #F0EAD6;
+  width: 25%;
+  height: 50px;
+}
+
+.browngranite {
+  background-color: #615550;
+  width: 25%;
+  height: 50px;
+}
+
+
+

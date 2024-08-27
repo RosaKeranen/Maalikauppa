@@ -62,6 +62,8 @@ function openImage(imageSrc) {
   window.open(imageSrc, "_blank", "width=800,height=600");
 }
 
+
+
 /* <footer class="footer bg-light text-center text-lg-start">
   <div class="container p-4">
     <div class="text-center p-3">
