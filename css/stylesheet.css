@@ -158,5 +158,16 @@ html, body {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
+.cls-2 {
+  fill:#eae5de;
+}
+
+.cls-3 {
+  fill: #f0e2d0;
+}
+
+.cls-1 {
+  fill: #e0c4a0;
+}
 
 

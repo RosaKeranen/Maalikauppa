@@ -1,18 +1,17 @@
 /*Tämä on väritestausta*/
-$(document).ready(function(){
-    let selectedColor = '';
+// Hae kaikki värilaatikot ja seinät
+const colorBoxes = document.querySelectorAll('.col-sm-4 .col');
+const walls = document.querySelectorAll('polygon');
 
-    // Kun värilaatikkoa klikataan, tallennetaan valittu väri
-    $('.col[data-color]').click(function(){
-        selectedColor = $(this).data('color');
-        $('.col[data-color]').removeClass('selected');
-        $(this).addClass('selected');
-    });
+// Lisää tapahtumankäsittelijä jokaiseen värilaatikkoon
+colorBoxes.forEach(box => {
+  box.addEventListener('click', () => {
+    // Hae värilaatikon data-color-attribuutin arvo (jos se on olemassa)
+    const color = box.dataset.color || getComputedStyle(box).backgroundColor;
 
-    // Kun SVG:n seinää klikataan, vaihdetaan sen väri valittuun väriin
-    $('polygon').click(function(){
-        if(selectedColor) {
-            $(this).css('fill', selectedColor);
-        }
+    // Aseta valittu väri kaikille seinille (tämän voit muokata valitsemaan tietyn seinän)
+    walls.forEach(wall => {
+      wall.style.fill = color;
     });
+  });
 });
