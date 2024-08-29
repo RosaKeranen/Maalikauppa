@@ -58,7 +58,6 @@ html, body {
 
 .fiesta {
   background-color: #DD4132;
-  fill: #DD4132;
   width: 25%;
   height: 50px;
 }
@@ -151,6 +150,12 @@ html, body {
   background-color: #615550;
   width: 25%;
   height: 50px;
+}
+
+/* Valitulle värilaatikolle lisätään selected-luokka, jotta käyttäjä näkee, mikä väri on valittuna */
+.selected {
+  border: 3px solid #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 
