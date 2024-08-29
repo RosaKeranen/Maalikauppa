@@ -58,6 +58,7 @@ html, body {
 
 .fiesta {
   background-color: #DD4132;
+  fill: #DD4132 !important;
   width: 25%;
   height: 50px;
 }
@@ -169,5 +170,6 @@ html, body {
 .cls-1 {
   fill: #e0c4a0;
 }
+
 
 
