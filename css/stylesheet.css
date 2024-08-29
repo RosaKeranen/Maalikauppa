@@ -65,100 +65,116 @@ html, body {
 
 .jesterred {
   background-color: #9E1030;
+  fill: #9E1030 !important;
   width: 25%;
   height: 50px;
 }
 
 .turmeric {
   background-color: #FE840E;
+  fill: #FE840E !important;
   width: 25%;
   height: 50px;
 }
 
 .livingcoral {
   background-color: #FF6F61;
+  fill: #FF6F61 !important;
   width: 25%;
   height: 50px;
 }
 
 .pinkpeacock {
   background-color: #C62168;
+  fill: #C62168 !important;
   width: 25%;
   height: 50px;
 }
 
 .pepperstem {
   background-color: #8D9440;
+  fill: #8D9440 !important;
   width: 25%;
   height: 50px;
 }
 
 .aspengold {
-  background-color: #FFD662 ;
+  background-color: #FFD662;
+  fill: #FFD662 !important;
   width: 25%;
   height: 50px;
 }
 
 .princessblue {
-  background-color: #00539C ;
+  background-color: #00539C;
+  fill: #00539C !important;
   width: 25%;
   height: 50px;
 }
 
 .toffee {
-  background-color: #755139 ;
+  background-color: #755139;
+  fill: #755139 !important;
   width: 25%;
   height: 50px;
 }
 
 .mangomojito {
   background-color: #D69C2F;
+  fill: #D69C2F !important;
   width: 25%;
   height: 50px;
 }
 
 .terrariummoss {
-  background-color: #616247 ;
+  background-color: #616247;
+  fill: #616247 !important;
   width: 25%;
   height: 50px;
 }
 
 .sweetlilac {
-  background-color: #E8B5CE ;
+  background-color: #E8B5CE;
+  fill: #E8B5CE !important;
   width: 25%;
   height: 50px;
 }
 
 .soybean {
-  background-color: #D2C29D ;
+  background-color: #D2C29D;
+  fill: #D2C29D !important;
   width: 25%;
   height: 50px;
 }
 
 .eclipse {
-  background-color: #343148 ;
+  background-color: #343148;
+  fill: #343148 !important;
   width: 25%;
   height: 50px;
 }
 
 .sweetcorn {
   background-color: #F0EAD6;
+  fill: #F0EAD6 !important;
   width: 25%;
   height: 50px;
 }
 
 .browngranite {
   background-color: #615550;
+  fill: #615550 !important;
   width: 25%;
   height: 50px;
 }
 
-/* Valitulle värilaatikolle lisätään selected-luokka, jotta käyttäjä näkee, mikä väri on valittuna */
+/* Valitulle värilaatikolle lisätään selected-luokka, jotta käyttäjä näkee, mikä väri on valittuna - ei toimi tällä hetkellä*/
 .selected {
   border: 3px solid #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
+/* Nämä kolme seuraavaa ovat SVG-kuvan seinän aloitusvärit (vaaleanruskeat seinät) */
 .cls-2 {
   fill:#eae5de;
 }
