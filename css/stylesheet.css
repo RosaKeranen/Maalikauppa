@@ -7,11 +7,11 @@ html, body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*background-color:beige;*/
 }
 
 .content {
     flex-grow: 1;
+    background-color:beige;
 }
 
 .footer {
@@ -185,6 +185,34 @@ html, body {
 
 .cls-1 {
   fill: #e0c4a0;
+}
+
+/* Nämä seuraavat card-body jutut liittyvät yhteystietolomakkeen "kuvakorttiin" */
+
+.card-body {
+  position: relative; /* Asetetaan card-body suhteelliseksi */
+}
+
+.card-body img {
+  width: 100%; /* Kuvan leveys 100% kontista */
+  height: auto; /* Kuvan korkeus säilyttää mittasuhteet */
+}
+
+.card-body .overlay {
+  position: absolute; /* Asetetaan overlay suhteelliseksi card-bodyyn */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ /* background: rgba(255, 255, 255, 0.247);  Valkoinen puoliksi läpinäkyvä taustaväri */
+  color: black; /* Musta teksti */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 
