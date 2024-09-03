@@ -1,41 +1,26 @@
-const form = document.getElementById('contactForm');
-form.addEventListener('submit', (event) => {
-    event.preventDefault(); // Estä lomakkeen lähettäminen oletusarvoisesti
+document.getElementById("yhteydenottolomake").addEventListener("submit", function(event) {
+    event.preventDefault();
 
-    const nimi = document.getElementById('nimi').value;
-    const sahkoposti = document.getElementById('sahkoposti').value;
-    const viesti = document.getElementById('viesti').value;
+    let nimi = document.getElementById("nimi").value.trim();
+    let sahkoposti = document.getElementById("sahkoposti").value.trim();
+    let viesti = document.getElementById("viesti").value.trim();
 
-    const nimiError = document.getElementById('nimiError');
-    const sahkopostiError = document.getElementById('sahkopostiError');
-    const viestiError = document.getElementById('viestiError');
-
-    // Nimen validointi
-    if (nimi.trim() === '' || nimi.length < 3) {
-        nimiError.textContent = 'Nimen tulee olla vähintään 3 merkkiä pitkä.';
+    if (nimi.length < 3 || /\s/.test(nimi)) {
+        alert("Nimi-kentässä on oltava vähintään 3 merkkiä, eikä se saa sisältää välilyöntejä.");
         return;
-    } else {
-        nimiError.textContent = '';
     }
 
-    // Sähköpostin validointi
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(sahkoposti)) {
-        sahkopostiError.textContent = 'Virheellinen sähköpostiosoite.';
+        alert("Sähköposti on virheellinen.");
         return;
-    } else {
-        sahkopostiError.textContent = '';
     }
 
-    // Viestin validointi
-    if (viesti.trim() === '') {
-        viestiError.textContent = 'Viesti ei saa olla tyhjä.';
+    if (viesti.length === 0) {
+        alert("Viesti-kenttä ei saa olla tyhjä.");
         return;
-    } else {
-        viestiError.textContent = '';
     }
 
-    // Jos kaikki validoinnit menevät läpi, voit lähettää lomakkeen esimerkiksi AJAX-pyynnöllä
-    // ...
-    console.log('Lomake lähetetään:', nimi, sahkoposti, viesti);
+    alert("Lomake lähetetty onnistuneesti!");
+    this.submit(); // Lomake lähetetään action_page.php:lle
 });

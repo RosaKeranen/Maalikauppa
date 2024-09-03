@@ -49,21 +49,18 @@
                 <div class="card mb-4">
                     <div class="card-body">
                         <h5 class="card-title">Ota yhteyttä</h5>
-                        <form id="contactForm">
+                        <form id="yhteydenottolomake" action="/action_page.php">
                             <div class="mb-3">
                                 <label for="nimi" class="form-label">Nimi</label>
                                 <input type="text" class="form-control" id="nimi" placeholder="Kirjoita nimesi">
-                                <small id="nimiError" class="form-text text-danger"></small>
                             </div>
                             <div class="mb-3">
                                 <label for="sahkoposti" class="form-label">Sähköposti</label>
                                 <input type="email" class="form-control" id="sahkoposti" placeholder="Kirjoita sähköpostiosoitteesi">
-                                <small id="sahkopostiError" class="form-text text-danger"></small>
                             </div>
                             <div class="mb-3">
                                 <label for="viesti" class="form-label">Viesti</label>
                                 <textarea class="form-control" id="viesti" rows="4" placeholder="Kirjoita viestisi"></textarea>
-                                <small id="viestiError" class="form-text text-danger"></small>
                             </div>
                             <button type="submit" class="btn btn-primary">Lähetä</button>
                             <button type="reset" class="btn btn-secondary">Tyhjennä</button>
