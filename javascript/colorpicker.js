@@ -4,5 +4,5 @@ function selectWall(wall) {
 }
 
 function setColor(colorClass) {
-    $('.selectedWall').toggleClass(colorClass);
+    $('.selectedWall').attr('class', colorClass);
 }
