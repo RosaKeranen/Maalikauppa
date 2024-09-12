@@ -25,7 +25,6 @@
 
  <div class="wrapper">
     <div class="content" style="background-color: transparent">
-
       <div class="row" style="width: 100%; height: auto;">
         <div class="col-sm-8">
                <!-- Inline SVG -->
@@ -38,7 +37,7 @@
 </svg>
         </div>
         <div class="col-sm-4">
-                 <p>Tähän tulee väritestauksen paletti?</p>
+          <p>Testaa erilaisten värisävyjen yhteensopivuutta. Valitse ensin seinä ja sen jälkeen seinälle haluamasi väri klikkaamalla. Poista värivalinnat -nappi tyhjentää valintasi.</p>
                  <div class="row mb-sm-4">
                   <div class="col mx-sm-2 fiesta" onclick="setColor('fiesta');"></div>
                   <div class="col mx-sm-2 jesterred" onclick="setColor('jesterred');"></div>
@@ -57,11 +56,16 @@
                   <div class="col mx-sm-2 terrariummoss" onclick="setColor('terrariummoss');"></div>
                   <div class="col mx-sm-2 sweetlilac" onclick="setColor('sweetlilac');"></div>
                 </div>
-                <div class="row mb-sm-4">
+                <div class="row mb-sm-4 mb-4">
                   <div class="col mx-sm-2 soybean" onclick="setColor('soybean');"></div>
                   <div class="col mx-sm-2 eclipse" onclick="setColor('eclipse');"></div>
                   <div class="col mx-sm-2 sweetcorn" onclick="setColor('sweetcorn');"></div>
                   <div class="col mx-sm-2 browngranite" onclick="setColor('browngranite');"></div>
+                </div>
+                <div class="row mb-sm-4">
+                  <div class="col mx-sm-2 mb-4">
+                  <button onclick="resetColor()">Poista värivalinnat</button>
+                  </div>
                 </div>
           </div>
       </div>
