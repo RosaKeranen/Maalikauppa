@@ -1,122 +1,135 @@
 <!DOCTYPE html>
 <html lang="fi">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galleria</title>
-    <!-- Oma CSS -->
-    <link rel="stylesheet" href="css/stylesheet.css">
-      <!-- Bootstrap 5 version CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -kirjasto -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galleria</title>
+  <!-- Oma CSS -->
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <!-- Bootstrap 5 version CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -kirjasto -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body>        
 
- <!-- Navigointipalkin sisällyttäminen -->
-<script src="javascript/nav.js"></script>
+<body>
 
-<div class="wrapper">
-  <div class="content">
-    
-  <div class="container-fluid">
-    <!-- Ensimmäinen rivi -->
-    <div class="row mb-4">
-        <div class="col-md-4 p-3">
-            <img src="pictures/bluish_wall.jpg" class="img-fluid img-thumbnail" alt="Blue bedroom wallpaper" onclick="openImage('pictures/bluish_wall.jpg')">
-        </div>
-        <div class="col-md-4 p-3">
-          <img src="pictures/green_wall.jpg" class="img-fluid img-thumbnail" alt="Green bedroom wall" onclick="openImage('pictures/green_wall.jpg')">
-        </div>
-        <div class="col-md-4 p-3">
-          <img src="pictures/yellow_wall.jpg" class="img-fluid img-thumbnail" alt="Yellow living room wall" onclick="openImage('pictures/yellow_wall.jpg')">
-        </div>
-     </div>
-  
-     <!-- Toinen rivi -->
-      <div class="row mb-4">
-        <div class="col-md-4 p-3">
-          <img src="pictures/red_bedroom.jpg" class="img-fluid img-thumbnail" alt="Red bedroom wall" onclick="openImage('pictures/red_bedroom.jpg')">
-        </div>
-        <div class="col-md-4 p-3">
-          <img src="pictures/stones_wallpaper.jpg" class="img-fluid img-thumbnail" alt="Stones wallpaper" onclick="openImage('pictures/stones_wallpaper.jpg')">
-        </div>
-        <div class="col-md-4 p-3">
-          <img src="pictures/purple_wall.jpg" class="img-fluid img-thumbnail" alt="Purple wallpaper" onclick="openImage('pictures/purple_wall.jpg')">
-        </div>
-     </div>
+  <!-- Navigointipalkin sisällyttäminen -->
+  <script src="javascript/nav.js"></script>
 
-     <!-- Kolmas rivi -->
-     <div class="row mb-4">
-      <div class="col-md-4 p-3">
-        <img src="pictures/bluestriped_wall.jpg" class="img-fluid img-thumbnail" alt="Blue-striped wallpaper" onclick="openImage('pictures/bluestriped_wall.jpg')">
-      </div>
-      <div class="col-md-4 p-3">
-        <img src="pictures/striped_wallpaper.jpg" class="img-fluid img-thumbnail" alt="Striped wallpaper" onclick="openImage('pictures/striped_wallpaper.jpg')">
-      </div>
-      <div class="col-md-4 p-3">
-        <img src="pictures/red_livingroom.jpg" class="img-fluid img-thumbnail" alt="Red living room wall" onclick="openImage('pictures/red_livingroom.jpg')">
-      </div>
-    </div>
-  </div>
-</div>
+  <div class="wrapper">
+    <div class="content">
 
-<footer class="footer bg-light text-center text-lg-start">
-  <div class="container p-4">
-    <div class="row">
-      <div class="col-lg-4 col-md-6 mb-4">
-        <p class="contact-info">
-          <strong>Kotkantien maalaus ja tapetointi</strong><br>
-          Kotkantie 3<br>
-          90100 Oulu<br>
-          <i class="fas fa-phone"></i> 044 999 888 99<br>
-          <i class="fas fa-envelope"></i> info@kotkantienmaalaus.fi
-        </p>
-      </div>
+      <div class="container-fluid">
+        <!-- Ensimmäinen rivi -->
+        <div class="row mb-4">
+          <div class="col-md-4 p-3">
+            <img src="pictures/bluish_wall.jpg" class="img-fluid img-thumbnail" alt="Blue bedroom wallpaper"
+              onclick="openImage('pictures/bluish_wall.jpg')">
+          </div>
+          <div class="col-md-4 p-3">
+            <img src="pictures/green_wall.jpg" class="img-fluid img-thumbnail" alt="Green bedroom wall"
+              onclick="openImage('pictures/green_wall.jpg')">
+          </div>
+          <div class="col-md-4 p-3">
+            <img src="pictures/yellow_wall.jpg" class="img-fluid img-thumbnail" alt="Yellow living room wall"
+              onclick="openImage('pictures/yellow_wall.jpg')">
+          </div>
+        </div>
 
-              <!-- Sosiaalinen media -->
-              <div class="col-lg-4 col-md-6 mb-4">
-                <p>
-                  <strong>Seuraa meitä somessa</strong><br>
-                </p>
-                <p class="social-icons">
-                  <a href="https://www.youtube.com" target="_blank" aria-label="YouTube">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                  <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </p>
-              </div>
+        <!-- Toinen rivi -->
+        <div class="row mb-4">
+          <div class="col-md-4 p-3">
+            <img src="pictures/red_bedroom.jpg" class="img-fluid img-thumbnail" alt="Red bedroom wall"
+              onclick="openImage('pictures/red_bedroom.jpg')">
+          </div>
+          <div class="col-md-4 p-3">
+            <img src="pictures/stones_wallpaper.jpg" class="img-fluid img-thumbnail" alt="Stones wallpaper"
+              onclick="openImage('pictures/stones_wallpaper.jpg')">
+          </div>
+          <div class="col-md-4 p-3">
+            <img src="pictures/purple_wall.jpg" class="img-fluid img-thumbnail" alt="Purple wallpaper"
+              onclick="openImage('pictures/purple_wall.jpg')">
+          </div>
+        </div>
 
-      <!-- Google-kartta-upotus -->
-        <div class="col-lg-4 mb-4">
-          <div class="ratio ratio-16x9">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.0773505865031!2d25.508349977639433!3d65.00146934481722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sfi!2sfi!4v1723713840151!5m2!1sfi!2sfi">
-            width="100%" 
-            height="100%" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Kolmas rivi -->
+        <div class="row mb-4">
+          <div class="col-md-4 p-3">
+            <img src="pictures/bluestriped_wall.jpg" class="img-fluid img-thumbnail" alt="Blue-striped wallpaper"
+              onclick="openImage('pictures/bluestriped_wall.jpg')">
+          </div>
+          <div class="col-md-4 p-3">
+            <img src="pictures/striped_wallpaper.jpg" class="img-fluid img-thumbnail" alt="Striped wallpaper"
+              onclick="openImage('pictures/striped_wallpaper.jpg')">
+          </div>
+          <div class="col-md-4 p-3">
+            <img src="pictures/red_livingroom.jpg" class="img-fluid img-thumbnail" alt="Red living room wall"
+              onclick="openImage('pictures/red_livingroom.jpg')">
           </div>
         </div>
       </div>
-
-    <div class="row">
-      <div class="col d-flex justify-content-center">
-        &copy; 2024 Kotkantien maalaus ja tapetointi
-      </div>
-      </div>
     </div>
+
+    <footer class="footer bg-light text-center text-lg-start">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <p class="contact-info">
+              <strong>Kotkantien maalaus ja tapetointi</strong><br>
+              Kotkantie 3<br>
+              90100 Oulu<br>
+              <i class="fas fa-phone"></i> 044 999 888 99<br>
+              <i class="fas fa-envelope"></i> info@kotkantienmaalaus.fi
+            </p>
+          </div>
+
+          <!-- Sosiaalinen media -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <p>
+              <strong>Seuraa meitä somessa</strong><br>
+            </p>
+            <p class="social-icons">
+              <a href="https://www.youtube.com" target="_blank" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </p>
+          </div>
+
+          <!-- Google-kartta-upotus -->
+          <div class="col-lg-4 mb-4">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.0773505865031!2d25.508349977639433!3d65.00146934481722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sfi!2sfi!4v1723713840151!5m2!1sfi!2sfi">
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            &copy; 2024 Kotkantien maalaus ja tapetointi
+          </div>
+        </div>
+      </div>
   </div>
-</footer>
+  </footer>
 
-</div>
+  </div>
 
-<!-- Bootstrap JS and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>

@@ -1,132 +1,138 @@
 <!DOCTYPE html>
 <html lang="fi">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yhteystiedot</title>
-    <!-- Oma CSS -->
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <!-- Bootstrap 5 version CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -kirjasto -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yhteystiedot</title>
+  <!-- Oma CSS -->
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <!-- Bootstrap 5 version CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -kirjasto -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
 
- <!-- Navigointipalkin sisällyttäminen -->
-<script src="javascript/nav.js"></script>
- <!--- Linkki yhteystietolomakkeen JavaScriptiin-->
-<script src="javascript/contactform.js"></script>
+  <!-- Navigointipalkin sisällyttäminen -->
+  <script src="javascript/nav.js"></script>
+  <!--- Linkki yhteystietolomakkeen JavaScriptiin-->
+  <script src="javascript/contactform.js"></script>
 
-<div class="wrapper">
-     <div class="content">
+  <div class="wrapper">
+    <div class="content">
 
       <div class="container mt-2 pt-2 my-5">
         <div class="row">
-            <!-- Yrityksen yhteystiedot -->
-            <div class="col-md-6">
-                <div class="card mb-4">
-                    <div class="card-body">
-                      <img src="pictures/yellow-wall-woman_brighter.jpg" class="img-fluid" alt="Yellow wall">
-                      <div class="overlay">
-                        <h5 class="card-title">Soita, laita viestiä, tule käymään!</h5><br>
-                        <p class="card-text">
-                            <strong>Kotkantien maalaus ja tapetointi</strong><br>
-                            Kotkantie 3<br>
-                            90100 Oulu<br>
-                            <i class="fas fa-phone"></i> 044 999 888 99<br>
-                            <i class="fas fa-envelope"></i> info@kotkantienmaalaus.fi
-                        </p>
-                    </div>
+          <!-- Yrityksen yhteystiedot -->
+          <div class="col-md-6">
+            <div class="card mb-4">
+              <div class="card-body">
+                <img src="pictures/yellow-wall-woman_brighter.jpg" class="img-fluid" alt="Yellow wall">
+                <div class="overlay">
+                  <h5 class="card-title">Soita, laita viestiä, tule käymään!</h5><br>
+                  <p class="card-text">
+                    <strong>Kotkantien maalaus ja tapetointi</strong><br>
+                    Kotkantie 3<br>
+                    90100 Oulu<br>
+                    <i class="fas fa-phone"></i> 044 999 888 99<br>
+                    <i class="fas fa-envelope"></i> info@kotkantienmaalaus.fi
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Yhteydenottolomake -->
+          <div class="col-md-6">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h5 class="card-title">Ota yhteyttä</h5>
+                <form id="yhteydenottolomake" onsubmit="return validateForm()">
+                  <div class="mb-3">
+                    <label for="nimi" class="form-label">Nimi</label>
+                    <input type="text" class="form-control" id="nimi" placeholder="Kirjoita nimesi" required>
                   </div>
-                </div>
-            </div>
-
-            
-            <!-- Yhteydenottolomake -->
-            <div class="col-md-6">
-                <div class="card mb-4">
-                    <div class="card-body">
-                        <h5 class="card-title">Ota yhteyttä</h5>
-                        <form id="yhteydenottolomake" onsubmit="return validateForm()">
-                            <div class="mb-3">
-                                <label for="nimi" class="form-label">Nimi</label>
-                                <input type="text" class="form-control" id="nimi" placeholder="Kirjoita nimesi" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="sahkoposti" class="form-label">Sähköposti</label>
-                                <input type="email" class="form-control" id="sahkoposti" placeholder="Kirjoita sähköpostiosoitteesi" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="viesti" class="form-label">Viesti</label>
-                                <textarea class="form-control" id="viesti" rows="4" placeholder="Kirjoita viestisi" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Lähetä</button>
-                            <button type="reset" class="btn btn-secondary">Tyhjennä</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-  </div>
-
-  <footer class="footer bg-light text-center text-lg-start">
-    <div class="container p-4">
-      <div class="row">
-        <div class="col-lg-4 col-md-6 mb-4">
-          <p class="contact-info">
-            <strong>Kotkantien maalaus ja tapetointi</strong><br>
-            Kotkantie 3<br>
-            90100 Oulu<br>
-            <i class="fas fa-phone"></i> 044 999 888 99<br>
-            <i class="fas fa-envelope"></i> info@kotkantienmaalaus.fi
-          </p>
-        </div>
-  
-                <!-- Sosiaalinen media -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                  <p>
-                    <strong>Seuraa meitä somessa</strong><br>
-                  </p>
-                  <p class="social-icons">
-                    <a href="https://www.youtube.com" target="_blank" aria-label="YouTube">
-                      <i class="fab fa-youtube"></i>
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </p>
-                </div>
-  
-        <!-- Google-kartta-upotus -->
-          <div class="col-lg-4 mb-4">
-            <div class="ratio ratio-16x9">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.0773505865031!2d25.508349977639433!3d65.00146934481722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sfi!2sfi!4v1723713840151!5m2!1sfi!2sfi">
-              width="100%" 
-              height="100%" 
-              style="border:0;" 
-              allowfullscreen="" 
-              loading="lazy" 
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <div class="mb-3">
+                    <label for="sahkoposti" class="form-label">Sähköposti</label>
+                    <input type="email" class="form-control" id="sahkoposti" placeholder="Kirjoita sähköpostiosoitteesi"
+                      required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="viesti" class="form-label">Viesti</label>
+                    <textarea class="form-control" id="viesti" rows="4" placeholder="Kirjoita viestisi"
+                      required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Lähetä</button>
+                  <button type="reset" class="btn btn-secondary">Tyhjennä</button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
-  
-      <div class="row">
-        <div class="col d-flex justify-content-center">
-          &copy; 2024 Kotkantien maalaus ja tapetointi
-        </div>
-        </div>
       </div>
     </div>
+
+    <footer class="footer bg-light text-center text-lg-start">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <p class="contact-info">
+              <strong>Kotkantien maalaus ja tapetointi</strong><br>
+              Kotkantie 3<br>
+              90100 Oulu<br>
+              <i class="fas fa-phone"></i> 044 999 888 99<br>
+              <i class="fas fa-envelope"></i> info@kotkantienmaalaus.fi
+            </p>
+          </div>
+
+          <!-- Sosiaalinen media -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <p>
+              <strong>Seuraa meitä somessa</strong><br>
+            </p>
+            <p class="social-icons">
+              <a href="https://www.youtube.com" target="_blank" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </p>
+          </div>
+
+          <!-- Google-kartta-upotus -->
+          <div class="col-lg-4 mb-4">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.0773505865031!2d25.508349977639433!3d65.00146934481722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sfi!2sfi!4v1723713840151!5m2!1sfi!2sfi">
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            &copy; 2024 Kotkantien maalaus ja tapetointi
+          </div>
+        </div>
+      </div>
+  </div>
   </footer>
 
- </div>
+  </div>
 
-<!-- Bootstrap JS and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>

@@ -1,57 +1,65 @@
-html, body {
-    height: 100%;
-    margin: 0;
-  }
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
 
-  .wrapper {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
-    flex-grow: 1;
-    background-color:beige;
+  flex-grow: 1;
+  background-color: beige;
 }
 
 .footer {
-    background-color: #f8f9fa;
-    text-align: center;
-    padding: 1rem;
-    position: sticky;
-    margin-top: auto
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 1rem;
+  position: sticky;
+  margin-top: auto
 }
-  
-  body {
-    display: flex;
-    flex-direction: column;
-  }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
 
 
-  /* Estää yhteystietolomakkeen tekstikentän venymisen hiirellä vedettäessä */
-  textarea {
-    resize: none;
+/* Estää yhteystietolomakkeen tekstikentän venymisen hiirellä vedettäessä */
+textarea {
+  resize: none;
 }
 
 /* Footerissa olevien some-ikoneiden tyylejä */
 .social-icons a {
-  color: #333; /* Väri, joka on ikoneille */
-  text-decoration: none; /* Poistaa alleviivauksen linkeistä */
-  margin: 0 10px; /* Lisää tilaa ikoneiden väliin */
-  font-size: 3rem; /* Suurentaa ikoneiden kokoa, säätää tarpeen mukaan */
+  color: #333;
+  /* Väri, joka on ikoneille */
+  text-decoration: none;
+  /* Poistaa alleviivauksen linkeistä */
+  margin: 0 10px;
+  /* Lisää tilaa ikoneiden väliin */
+  font-size: 3rem;
+  /* Suurentaa ikoneiden kokoa, säätää tarpeen mukaan */
 }
 
 .social-icons a:hover {
-  color: #007bff; /* Väri hover-tilassa */
+  color: #007bff;
+  /* Väri hover-tilassa */
 }
 
 /* Footerissa olevien puhelin ja sähköposti -ikoneiden tyylejä */
 .contact-info {
-  font-size: 1rem; /* Voit säätää fontin kokoa tarvittaessa */
+  font-size: 1rem;
+  /* Voit säätää fontin kokoa tarvittaessa */
 }
 
 .contact-info i {
-  margin-right: 8px; /* Lisää tilaa ikonien ja tekstin väliin */
+  margin-right: 8px;
+  /* Lisää tilaa ikonien ja tekstin väliin */
 }
 
 /* Seuraavat jutut liittyvät värinvalitsimen väreihin. */
@@ -170,7 +178,7 @@ html, body {
 
 /* Nämä kolme seuraavaa ovat SVG-kuvan seinän aloitusvärit (vaaleanruskeat seinät) */
 .cls-2 {
-  fill:#eae5de;
+  fill: #eae5de;
 }
 
 .cls-3 {
@@ -184,21 +192,26 @@ html, body {
 /* Nämä seuraavat card-body jutut liittyvät yhteystietolomakkeen "kuvakorttiin" */
 
 .card-body {
-  position: relative; /* Asetetaan card-body suhteelliseksi */
+  position: relative;
+  /* Asetetaan card-body suhteelliseksi */
 }
 
 .card-body img {
-  width: 100%; /* Kuvan leveys 100% kontista */
-  height: auto; /* Kuvan korkeus säilyttää mittasuhteet */
+  width: 100%;
+  /* Kuvan leveys 100% kontista */
+  height: auto;
+  /* Kuvan korkeus säilyttää mittasuhteet */
 }
 
 .card-body .overlay {
-  position: absolute; /* Asetetaan overlay suhteelliseksi card-bodyyn */
+  position: absolute;
+  /* Asetetaan overlay suhteelliseksi card-bodyyn */
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  color: black; /* Musta teksti */
+  color: black;
+  /* Musta teksti */
   display: flex;
   flex-direction: column;
   justify-content: center;
