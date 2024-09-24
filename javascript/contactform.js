@@ -22,8 +22,7 @@ function validateForm() {
         return false;
     }
 
-    // Jos kaikki tarkistukset menevät läpi, palautetaan true
-      // Jos validointi menee läpi:
+    // Jos validointi menee läpi:
     alert("Kiitos yhteydenotostasi, lomake on lähetetty!");
     return true;
 }
