@@ -15,7 +15,7 @@ html, body {
 }
 
 .footer {
-    background-color: #f8f9fa; /* Tai käytä "bg-light" Bootstrap-luokkaa */
+    background-color: #f8f9fa;
     text-align: center;
     padding: 1rem;
     position: sticky;
@@ -54,7 +54,7 @@ html, body {
   margin-right: 8px; /* Lisää tilaa ikonien ja tekstin väliin */
 }
 
-/* Seuraavat jutut liittyvät värinvalitsin-hommeliin */
+/* Seuraavat jutut liittyvät värinvalitsimen väreihin. */
 
 .fiesta {
   background-color: #DD4132;
@@ -168,12 +168,6 @@ html, body {
   height: 50px;
 }
 
-/* Valitulle värilaatikolle lisätään selected-luokka, jotta käyttäjä näkee, mikä väri on valittuna - ei toimi tällä hetkellä*/
-.selected {
-  border: 3px solid #fff;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-}
-
 /* Nämä kolme seuraavaa ovat SVG-kuvan seinän aloitusvärit (vaaleanruskeat seinät) */
 .cls-2 {
   fill:#eae5de;
@@ -204,7 +198,6 @@ html, body {
   left: 0;
   right: 0;
   bottom: 0;
- /* background: rgba(255, 255, 255, 0.247);  Valkoinen puoliksi läpinäkyvä taustaväri */
   color: black; /* Musta teksti */
   display: flex;
   flex-direction: column;
@@ -214,6 +207,3 @@ html, body {
   padding: 20px;
   box-sizing: border-box;
 }
-
-
-
