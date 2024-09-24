@@ -15,6 +15,7 @@
 
  <!-- Navigointipalkin sisällyttäminen -->
 <script src="javascript/nav.js"></script>
+ <!--- Linkki yhteystietolomakkeen JavaScriptiin-->
 <script src="javascript/contactform.js"></script>
 
 <div class="wrapper">
@@ -47,7 +48,7 @@
                 <div class="card mb-4">
                     <div class="card-body">
                         <h5 class="card-title">Ota yhteyttä</h5>
-                        <form id="yhteydenottolomake" action="/action_page.php">
+                        <form id="yhteydenottolomake" action="/action_page.php" onsubmit="return validateForm()">
                             <div class="mb-3">
                                 <label for="nimi" class="form-label">Nimi</label>
                                 <input type="text" class="form-control" id="nimi" placeholder="Kirjoita nimesi" required>
