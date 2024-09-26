@@ -12,17 +12,14 @@ Tämä projekti on verkkosivusto maalaus- ja tapetointiliikkeelle. Sivustolla es
 - Responsiivinen design, joka toimii sekä tietokoneella että mobiililaitteilla
 
 ## Kuvia sivuston ulkoasusta
-![Kotisivu](Screenshots/1_kotisivu.jpg)
 
+![Kotisivu](Screenshots/1_kotisivu.jpg)
 
 Sivuston kotisivu.
 
-
 ![Palvelut-sivu](Screenshots/2_palvelut_sivu.jpg)
 
-
 Yrityksen palveluita esittelevä sivu.
-
 
 ![Väritestaus-sivu](Screenshots/3_varitestaus_sivu.jpg)
 
@@ -34,10 +31,9 @@ Galleria-sivusto esittelee yrityksen valmistuneita maalaus- ja tapetointikohteit
 
 ![Yhteystiedot-sivu](Screenshots/5_yhteystiedot_sivu.jpg)
 
-Yhteystiedot-sivulla olevalla lomakkeella asiakkaat voivat ollaa yhteyttä yritykseen.
+Yhteystiedot-sivulla olevalla lomakkeella asiakkaat voivat ottaa yhteyttä yritykseen.
 
 ## Tulevaisuuden kehitysajatuksia
-
 - Lisää yhteydenottolomakkeen palvelinpuolen käsittely
 - Lisää tuotteiden esittelysivu, jossa käyttäjät voivat selata maaleja ja tapetteja
  
