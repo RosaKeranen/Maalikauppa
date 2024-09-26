@@ -16,19 +16,19 @@ Tämä projekti on verkkosivusto maalaus- ja tapetointiliikkeelle. Sivustolla es
 
 Sivuston kotisivu.
 
-![Palvelut-sivu](Screenshots/2_palvelut_sivu.JPG)
+![Palvelut-sivu](Screenshots/2_palvelut_sivu.jpg)
 
 Yrityksen palveluita esittelevä sivu.
 
-![Väritestaus-sivu](Screenshots/3_varitestaus_sivu.JPG)
+![Väritestaus-sivu](Screenshots/3_varitestaus_sivu.jpg)
 
 Väritestaus-sivu. Asiakkaat voivat kokeilla erilaisten värisävyjen yhteensopivuutta klikkaamalla kuvassa olevia seinäpintoja ja sen jälkeen haluamaansa väriä. Seinille pystyy valitsemaan yhteensä kolme eri väriä, tai vaikka saman sävy kaikille kolmelle seinälle.
 
-![Galleria-sivu](Screenshots/4_galleria_sivu.JPG)
+![Galleria-sivu](Screenshots/4_galleria_sivu.jpg)
 
 Galleria-sivusto esittelee yrityksen valmistuneita maalaus- ja tapetointikohteita.
 
-![Yhteystiedot-sivu](Screenshots/5_yhteystiedot_sivu.JPG)
+![Yhteystiedot-sivu](Screenshots/5_yhteystiedot_sivu.jpg)
 
 Yhteystiedot-sivulla olevalla lomakkeella asiakkaat voivat ollaa yhteyttä yritykseen.
 
