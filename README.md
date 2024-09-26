@@ -12,7 +12,7 @@ Tämä projekti on verkkosivusto maalaus- ja tapetointiliikkeelle. Sivustolla es
 - Responsiivinen design, joka toimii sekä tietokoneella että mobiililaitteilla
 
 ## Kuvia sivuston ulkoasusta
-![Kotisivu](Screenshots/1_kotisivu.JPG)
+![Kotisivu](Screenshots/1_kotisivu.jpg)
 
 Sivuston kotisivu.
 
