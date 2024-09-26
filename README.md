@@ -14,11 +14,15 @@ Tämä projekti on verkkosivusto maalaus- ja tapetointiliikkeelle. Sivustolla es
 ## Kuvia sivuston ulkoasusta
 ![Kotisivu](Screenshots/1_kotisivu.jpg)
 
+
 Sivuston kotisivu.
+
 
 ![Palvelut-sivu](Screenshots/2_palvelut_sivu.jpg)
 
+
 Yrityksen palveluita esittelevä sivu.
+
 
 ![Väritestaus-sivu](Screenshots/3_varitestaus_sivu.jpg)
 
